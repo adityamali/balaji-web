@@ -1,0 +1,25 @@
+.pageWraper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* background-color: #de4242; */
+}
+
+.brand {
+    color: var(--primary-color);
+}
+
+.pageWraper h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.pageWraper p {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    width: 60%;
+    color: var(--text-tertiary);
+}

@@ -1,0 +1,86 @@
+.pageWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 7rem;
+}
+
+.contactHero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* background-color: aqua; */
+    border-radius: var(--border-radius);
+    gap: 3em;
+}
+
+.heroContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    width: 100%;
+    max-width: 1100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.formWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    width: 40vw;
+    margin-bottom: 20px;
+}
+
+.formGroup>label {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.formGroup>input {
+    width: 100%;
+    padding: 10px;
+    border-radius: var(--border-radius);
+    border: 1px solid var(--text-secondary);
+    font-size: 1.2rem;
+}
+
+.formGroup>textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: var(--border-radius);
+    border: 1px solid var(--text-secondary);
+    font-size: 1.2rem;
+    resize: none;
+}
+
+#submit {
+    width: 100%;
+    padding: 10px;
+    border-radius: var(--border-radius);
+    border: none;
+    font-size: 1.2rem;
+    background-color: var(--primary-color);
+    color: var(--text-primary);
+    cursor: pointer;
+    transition: 0.3s ease;
+}

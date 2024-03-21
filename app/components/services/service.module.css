@@ -1,0 +1,81 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.brand {
+    color: var(--primary-color);
+}
+
+.point {
+    color: var(--text-primary);
+    font-size: 3em;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    font-size: 1em;
+    font-weight: 400;
+    color: var(--text-tertiary);
+    justify-content: space-between;
+    width: 100%;
+}
+
+.left {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1em;
+}
+
+.head h1 {
+    font-size: 3em;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 1rem;
+}
+
+.head p {
+    font-size: 0.9em;
+    font-weight: 400;
+    color: var(--text-tertiary);
+    margin-bottom: 2rem;
+    line-height: 1.5;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    height: inherit;
+    justify-content: center;
+}
+
+.services {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    margin-top: 2em;
+}
+
+.service>h2 {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.service>p {
+    font-size: 0.9em;
+    font-weight: 400;
+    color: var(--text-tertiary);
+    width: 80%;
+    line-height: 1.7;
+}
