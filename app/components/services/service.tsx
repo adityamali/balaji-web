@@ -19,7 +19,7 @@ function service() {
             </div>
             </div>
             <div className={style.right}>
-                <Link href="/services">Know More -></Link>
+                <Link href="/services">Know More -</Link>
             </div>
         </div>
         <div className={style.services}>
