@@ -16,6 +16,14 @@
     gap: 3rem;
 }
 
+.navLink {
+    padding: 0.5em;
+}
+
+.navLink:hover {
+    color: var(--primary-color);
+}
+
 .btnSecondary {
     background-color: transparent;
     color: var(--dark-color);

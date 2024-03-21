@@ -28,7 +28,7 @@ function FaqSec() {
         }
       ]);
   return (
-    <div className={style.container}>
+    <div className={style.container} id='faq'>
         <h2>Frequently Asked Questions</h2>
         <div className={style.faqs}>
             {faqs.map((faq, index) => (

@@ -18,9 +18,9 @@ function hero() {
         <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi laborum nihil consequatur incidunt, tempora vero architecto, quo fugiat quod earum quasi numquam recusandae, illo consectetur!
         </p>
-        <div className="actions">
+        <div className={style.actions}>
           <button className={style.primaryBtn}>Shop Now</button>
-          <button className={style.secondaryBtn}><Image id={style.play} src={playButton} alt="Play Button" />Learn More</button>
+          <button className={style.secondaryBtn}><Image id={style.play} src={playButton} alt="Play Button" /><p>Learn More</p></button>
         </div>
       </div>
       <div className={style.heroImg1}>

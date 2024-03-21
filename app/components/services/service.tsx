@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 import style from './service.module.css'
 
 function service() {
@@ -18,7 +19,7 @@ function service() {
             </div>
             </div>
             <div className={style.right}>
-                <p>Know More -></p>
+                <Link href="/services">Know More -></Link>
             </div>
         </div>
         <div className={style.services}>
