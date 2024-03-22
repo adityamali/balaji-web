@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from "next/image";
+import Link from "next/link";
 import style from "./hero.module.css";
 
 import playButton from "../../../public/icons/play.png";
@@ -20,7 +21,7 @@ function hero() {
         </p>
         <div className={style.actions}>
           <button className={style.primaryBtn}>Shop Now</button>
-          <button className={style.secondaryBtn}><Image id={style.play} src={playButton} alt="Play Button" /><p>Learn More</p></button>
+          <Link href="https://www.youtube.com/watch?v=hcioIka_ByE"><button className={style.secondaryBtn} ><Image id={style.play} src={playButton} alt="Play Button" /><p>Learn More</p></button></Link>
         </div>
       </div>
       <div className={style.heroImg1}>

@@ -22,6 +22,10 @@
 .title>h2 {
     font-size: 2.5em;
     font-weight: 700;
+    color: var(--text-primary);
+}
+
+.brand {
     color: var(--primary-color);
 }
 
