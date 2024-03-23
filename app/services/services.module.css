@@ -1,0 +1,53 @@
+.serviceWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.serviceHeader {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    width: 100vw;
+    height: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../../public/images/stitch.jpg') no-repeat center center/cover;
+}
+
+.serviceContent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin: 0 7em;
+    width: 100%;
+    max-width: 1200px;
+    gap: 1em;
+}
+
+.serviceCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+    padding: 1em;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    color: var(--text-tertiary);
+}
+
+.serviceCard>h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+}

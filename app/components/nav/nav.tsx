@@ -10,10 +10,9 @@ function nav() {
         </div>
         <div className={style.navitems}>
             <Link href="/" className={style.navLink}>Company</Link>
-            <Link href="/Services" className={style.navLink}>Services</Link>
+            <Link href="/services" className={style.navLink}>Services</Link>
             <Link href="/about" className={style.navLink}>About</Link>
             <Link href="/blog" className={style.navLink}>Blog</Link>
-            <Link href="#faq" className={style.navLink}>FAQ</Link>
         </div>
         <div className={style.cta}>
             <Link  href='/contacts'>
