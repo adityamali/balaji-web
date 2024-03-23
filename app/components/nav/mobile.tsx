@@ -5,7 +5,7 @@ import style from './nav.module.css'
 import Link from 'next/link'
 import { useState } from 'react'
 
-function mobile() {
+function Mobile() {
     const [isOpen, setIsOpen] = useState(false);
     const handleDrawer = () => {
         setIsOpen(!isOpen);
@@ -47,4 +47,4 @@ function mobile() {
         )
 }
 
-export default mobile;
+export default Mobile;
