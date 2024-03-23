@@ -20,7 +20,7 @@ export default function Home() {
       <Blog />
       <div className={style.gap}>
         <FAQ />
-        <Reviews />
+        {/* <Reviews /> */}
       </div>
     </div>
   );

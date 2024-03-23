@@ -60,3 +60,30 @@
     color: var(--text-secondary);
     transition: 2s ease;
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0 2em;
+    }
+
+    .container>h2 {
+        font-size: var(--text-s-head);
+        margin-bottom: 2em;
+    }
+    .faqs {
+        padding: 0;
+    }
+
+    .faq {
+        padding: 0;
+    }
+
+    .question {
+        font-size: 1.2rem;
+    }
+
+    .answer {
+        font-size: 1rem;
+        margin-bottom: 2em;
+    }
+}

@@ -15,6 +15,14 @@
   --text-secondary: #6E6E6E;
   --text-tertiary: #9E9E9E;
 
+
+  --text-l-head: 2em;
+  --text-l-body: 1.2em;
+
+
+  --text-s-head: 1.4em;
+  --text-s-body: 1em
+
 }
 
 @media (prefers-color-scheme: dark) {

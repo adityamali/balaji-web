@@ -6,3 +6,11 @@
     gap: 10em;
     padding: 0 7rem;
 }
+
+/* Mobile */
+
+@media screen and (max-width: 768px){
+    .gap{
+        padding: 0 1em;
+    }
+}

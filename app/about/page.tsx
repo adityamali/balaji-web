@@ -22,12 +22,10 @@ function About() {
           <Image src={Img1} alt='' />
         </div>
         <div className={style.txt1}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae rem voluptatum distinctio facere, magni laudantium deserunt explicabo dolores qui architecto expedita quaerat perspiciatis sit blanditiis., ipsum dolor sit amet consectetur adipisicing elit. Neque cupiditate possimus facilis, magni nobis, dolore unde ipsa ex vero quaerat quisquam voluptatem quos sequi quidem. Voluptatibus odit molestias laborum laudantium tenetur accusantium vel distinctio alias.</div>
-        <div className={style.txt2}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae rem voluptatum distinctio facere, magni laudantium deserunt explicabo dolores qui architecto expedita quaerat perspiciatis sit blanditiis., ipsum dolor sit amet consectetur adipisicing elit. Neque cupiditate possimus facilis, magni nobis, dolore unde ipsa ex vero quaerat quisquam voluptatem quos sequi quidem. Voluptatibus odit molestias laborum laudantium tenetur accusantium vel distinctio alias.</div>
         <div className={style.img2}>
-          <div className={style.img1}>
             <Image src={Img1} alt='' />
-          </div>
         </div>
+        <div className={style.txt2}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae rem voluptatum distinctio facere, magni laudantium deserunt explicabo dolores qui architecto expedita quaerat perspiciatis sit blanditiis., ipsum dolor sit amet consectetur adipisicing elit. Neque cupiditate possimus facilis, magni nobis, dolore unde ipsa ex vero quaerat quisquam voluptatem quos sequi quidem. Voluptatibus odit molestias laborum laudantium tenetur accusantium vel distinctio alias.</div>
 
       </div>
     </div>

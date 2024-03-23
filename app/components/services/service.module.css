@@ -34,14 +34,14 @@
 }
 
 .head h1 {
-    font-size: 3em;
+    font-size: var(--text-l-head);
     font-weight: 700;
     color: var(--text-primary);
     margin-bottom: 1rem;
 }
 
 .head p {
-    font-size: 0.9em;
+    font-size: var(--text-l-body);
     font-weight: 400;
     color: var(--text-tertiary);
     margin-bottom: 2rem;
@@ -78,4 +78,37 @@
     color: var(--text-tertiary);
     width: 80%;
     line-height: 1.7;
+}
+
+@media screen and (max-width: 768px) {
+    
+
+    .container{
+        padding: 0 1em;
+    }
+
+    .head{
+        flex-direction: column;
+    }
+
+    .head h1{
+        font-size: var(--text-s-head);
+    }
+
+    .services{
+        flex-direction: column;
+    }
+
+    .service{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 1em;
+        text-align: center;
+    }
+
+    .service>p{
+        width: 100%;
+    }
+
+
+    
 }

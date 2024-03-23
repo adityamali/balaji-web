@@ -42,3 +42,23 @@
     gap: 20px;
     width: 100%;
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 2rem 2em;
+    }
+
+    .title>h2 {
+        font-size: var(--text-s-head);
+    }
+
+    .title>p {
+        font-size: var(--text-s-body);
+    }
+
+    .cardsContainer {
+        gap: 2em;
+        flex-direction: column;
+    }
+    
+}

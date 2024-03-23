@@ -2,6 +2,8 @@ import React from 'react'
 import style from './nav.module.css'
 import Link from 'next/link'
 
+import Mobile from './mobile'
+
 function nav() {
   return (
     <div className={style.header}>
@@ -20,8 +22,8 @@ function nav() {
                 Contact Us
             </button>   
             </Link>
-            
         </div>
+        <Mobile/>
     </div>
   )
 }

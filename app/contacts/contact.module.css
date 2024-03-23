@@ -109,3 +109,23 @@
     cursor: pointer;
     transition: 0.3s ease;
 }
+
+@media screen and (max-width:768px){
+    
+    .pageWrapper {
+        padding: 0 2em;
+    }
+    
+    .contactHero {
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .contactInfo{
+        width: calc(100vw - 4em);
+    }
+
+    .formGroup {
+        width: calc(100vw - 4em);
+    }
+}

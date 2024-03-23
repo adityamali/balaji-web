@@ -39,3 +39,88 @@
     background-color: var(--dark-color);
     color: var(--white-color);
 }
+
+.navMenu{
+    display: none;
+}
+
+
+.hamburger{
+    z-index: 999;
+}
+
+.mobile{
+    display: none;
+
+}
+
+@media screen and (max-width:768px) {
+    .header {
+        padding: 2rem 2rem;
+    }
+
+    .navitems {
+        display: none;
+    }
+
+    .cta{
+        display: none;
+    }
+
+    .line{
+        width: 25px;
+        height: 2px;
+        background-color: var(--dark-color);
+        margin: 5px;
+    }
+
+    .mobile{
+        display: block;
+    }
+
+    .hamburger{
+        display: block;
+        cursor: pointer;
+        z-index: 999;
+    }
+
+    .toggleOpen{
+        display: block;
+    }
+
+    .toggleClose{
+        display: none;
+    }
+
+    .mobileNav{
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: var(--white-color);
+        z-index: 999;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .close{
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+        cursor: pointer;
+    }
+
+    .mobileNavItems{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        text-align: center;
+    }
+}

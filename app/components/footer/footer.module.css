@@ -51,10 +51,29 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1em 0;
+    padding: 0.7em 0;
     background-color: var(--white-color);
     color: var(--text-primary);
     width: 100%;
     z-index: 100;
     margin-top: 2em;
+}
+
+@media screen and (max-width: 768px) {
+
+    .footer {
+        flex-direction: column;
+        gap: 2em;
+        padding: 3em 2em;
+    }
+
+    .footerBottom {
+        padding: 1em 0;
+        text-align: center;
+    }
+
+    /* .footerColumn {
+        align-items: center;
+        text-align: center;
+    } */
 }
